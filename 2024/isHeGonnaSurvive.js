@@ -4,3 +4,9 @@ function hero(bullets, dragons) {
 }
 
 // Done By Me🫡
+
+function bestPractice(bullets, dragons) {
+  return bullets >= dragons * 2;
+}
+
+// Above is the best practice🚀
