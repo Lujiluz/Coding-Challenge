@@ -5,3 +5,4 @@ function grow(x) {
 }
 
 // DONE BY ME🫡
+console.log(grow([1,2,3,4]))
