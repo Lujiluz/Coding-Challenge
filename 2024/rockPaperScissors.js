@@ -13,5 +13,18 @@ const rps = (p1, p2) => {
 
 // Done by me🫡
 
+// best practice
+const rpsBestPractice = (p1, p2) => {
+  if (p1 === p2) return 'Draw!';
+  let rules = { rock: 'scissors', paper: 'rock', scissors: 'paper' };
+  if (p1 === rules[p2]) {
+    return 'Player 2 won!';
+  } else {
+    return 'Player 1 won!';
+  }
+};
+
 console.log(rps('paper', 'paper'));
 console.log(rps('rock', 'scissors'));
+console.log(rpsBestPractice('paper', 'paper'));
+console.log(rpsBestPractice('rock', 'scissors'));
