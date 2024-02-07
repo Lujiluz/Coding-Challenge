@@ -3,3 +3,8 @@ function arrayPlusArray(arr1, arr2) {
 }
 
 // done by me🫡
+
+// best practice
+function arrayPlusArrayBP(arr1, arr2) {
+  return arr1.concat(arr2).reduce((x, y) => x + y);
+}
