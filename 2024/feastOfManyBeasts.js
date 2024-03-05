@@ -7,6 +7,11 @@ function feast(beast, dish) {
 
 // done by me🫡
 
-console.log(feast('great blue heron', 'garlic naan'));
-console.log(feast('chickadee', 'chocolate cake'));
-console.log(feast('brown bear', 'bear claw'));
+// best practice
+function feastBestPractice(beast, dish) {
+  return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1];
+}
+
+console.log(feastBestPractice('great blue heron', 'garlic naan'));
+console.log(feastBestPractice('chickadee', 'chocolate cake'));
+console.log(feastBestPractice('brown bear', 'bear claw'));
